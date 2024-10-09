@@ -5,8 +5,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
 with webdriver.Chrome() as browser:
-    all_buttons = list
-
     def clicker(one, two, three):
         for item in [one, two, three]:
             item.click()
